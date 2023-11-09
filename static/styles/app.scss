@@ -1,0 +1,47 @@
+page,
+view,
+scroll-view,
+text,
+image,
+textarea,
+button,
+swiper,
+swiper-item,
+input {
+	box-sizing: border-box;
+}
+
+view[hidden] {
+	display: none !important;
+}
+
+page {
+	background-color: $bg-color;
+	font-size: $font-size-base;
+	color: $text-color-base;
+}
+
+// 布局
+.d-flex {
+	display: flex;
+}
+
+.flex-column {
+	flex-direction: column !important;
+}
+
+.align-items-center {
+	align-items: center;
+}
+
+.justify-content-center {
+	justify-content: center;
+}
+
+.justify-content-between {
+	justify-content: space-between;
+}
+
+.justify-content-end {
+	justify-content: flex-end;
+}
