@@ -36,6 +36,18 @@ $font-size-medium: 28rpx;
 $font-size-lg: 32rpx;
 $font-size-extra-lg: 36rpx;
 
+/* Border Radius */
+$border-radius-sm: 4rpx;
+$border-radius-base: 6rpx;
+$border-radius-lg: 12rpx;
+$border-radius-circle: 50%;
+
+/* 边框颜色 */
+$border-color: #c8c7cc;
+
+$box-shadow: 0 20rpx 20rpx -20rpx rgba($color: #333, $alpha: 0.1);
+
+
 @font-face {
 	font-family: 'wenyue';
 	src: url('https://static.heytea.com/taro_trial/v1/font/WenYue-XinQingNianTi-NC-W8_1.otf');

@@ -26,6 +26,14 @@ page {
 	display: flex;
 }
 
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.flex-fill {
+	flex: 1 1 auto !important;
+}
+
 .flex-column {
 	flex-direction: column !important;
 }
@@ -44,4 +52,153 @@ page {
 
 .justify-content-end {
 	justify-content: flex-end;
+}
+
+.flex-horizontal-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.flex-vertical-center {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.flex-between-center {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.p-30 {
+	padding: 30rpx;
+}
+
+.p-20 {
+	padding: 20rpx;
+}
+
+.plr-30 {
+	padding: 0 30rpx !important;
+}
+
+.ptb-30 {
+	padding: 30rpx 0 !important;
+}
+
+.ptb-20 {
+	padding: 20rpx 0 !important;
+}
+
+.pl-30 {
+	padding-left: 30rpx !important;
+}
+
+.pr-30 {
+	padding-right: 30rpx !important;
+}
+
+.mt-10 {
+	margin-top: 10rpx !important;
+}
+
+.mt-20 {
+	margin-top: 20rpx !important;
+}
+
+.mt-30 {
+	margin-top: 30rpx !important;
+}
+
+.mb-10 {
+	margin-bottom: 10rpx !important;
+}
+
+.mb-20 {
+	margin-bottom: 20rpx !important;
+}
+
+.mb-30 {
+	margin-bottom: 30rpx !important;
+}
+
+.ml-30 {
+	margin-left: 30rpx !important;
+}
+
+.ml-20 {
+	margin-left: 20rpx !important;
+}
+
+.ml-10 {
+	margin-left: 10rpx !important;
+}
+
+.mr-30 {
+	margin-right: 30rpx !important;
+}
+
+.mr-20 {
+	margin-right: 20rpx !important;
+}
+
+.mr-10 {
+	margin-right: 10rpx !important;
+}
+
+/* 文字尺寸 */
+$font-size-extra-sm: 22rpx;
+$font-size-sm: 24rpx;
+$font-size-base: 26rpx;
+$font-size-medium: 28rpx;
+$font-size-lg: 32rpx;
+$font-size-extra-lg: 36rpx;
+
+.font-size-extra-sm {
+	font-size: $font-size-extra-sm;
+}
+
+.font-size-sm {
+	font-size: $font-size-sm;
+}
+
+.font-size-base {
+	font-size: $font-size-base;
+}
+
+.font-size-medium {
+	font-size: $font-size-medium;
+}
+
+.font-size-lg {
+	font-size: $font-size-lg;
+}
+
+.font-size-extra-lg {
+	font-size: $font-size-extra-lg;
+}
+
+.text-color-base {
+	color: $text-color-base;
+}
+
+.text-color-assist {
+	color: $text-color-assist;
+}
+
+.text-color-grey {
+	color: $text-color-grey;
+}
+
+.text-truncate {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.overflow-hidden {
+	overflow: hidden;
 }

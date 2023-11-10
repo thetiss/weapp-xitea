@@ -1,7 +1,14 @@
 {
   "pages": [
+    "pages/home/home",
+    "pages/my/my",
     "pages/index/index",
-    "pages/map/map"
+    "pages/my/code",
+    "pages/integral/integral",
+    "pages/integral/mall",
+    "pages/mart/mart",
+    "pages/home/group-dinner",
+    "pages/addresses/addresses"
   ],
   "subPackages": [],
   "window": {
@@ -9,6 +16,40 @@
     "navigationBarTitleText": "uni-app",
     "navigationBarBackgroundColor": "#F8F8F8",
     "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#343434",
+    "borderStyle": "white",
+    "backgroundColor": "#F7F7F7",
+    "fontSize": "16px",
+    "iconWidth": "30px",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "static/images/tabbar/home.png",
+        "selectedIconPath": "static/images/tabbar/home_selected.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/images/tabbar/index.png",
+        "selectedIconPath": "static/images/tabbar/index_selected.png",
+        "text": "点单"
+      },
+      {
+        "pagePath": "pages/mart/mart",
+        "iconPath": "static/images/tabbar/mart.png",
+        "selectedIconPath": "static/images/tabbar/mart_selected.png",
+        "text": "百货"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/images/tabbar/my.png",
+        "selectedIconPath": "static/images/tabbar/my_selected.png",
+        "text": "我的"
+      }
+    ]
   },
   "usingComponents": {}
 }

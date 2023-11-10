@@ -8,6 +8,13 @@
         "miniprogram": {
             "list": [
                 {
+                    "name": "tabbar百货",
+                    "pathName": "pages/mart/mart",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
                     "name": "地图",
                     "pathName": "pages/map/map",
                     "query": "",
