@@ -10,7 +10,8 @@
 			"path": "pages/my/my",
 			"style": {
 				"navigationBarTitleText": "",
-				"enablePullDownRefresh": false
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
 			}
 		},
 		{
@@ -60,6 +61,13 @@
 			"path": "pages/addresses/addresses",
 			"style": {
 				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/mart/detail",
+			"style": {
+				"navigationBarTitleText": "商品详情",
 				"enablePullDownRefresh": false
 			}
 		}

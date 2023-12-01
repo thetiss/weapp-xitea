@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 行为相关颜色 */
+/* 背景颜色 */
+/* 文字基本颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* Border Radius */
+/* 边框颜色 */
+@font-face {
+  font-family: 'wenyue';
+  src: url("https://static.heytea.com/taro_trial/v1/font/WenYue-XinQingNianTi-NC-W8_1.otf");
+}
+@font-face {
+  font-family: 'neutra';
+  src: url("https://static.heytea.com/taro_trial/v1/font/NeutraTextDemiAlt.otf");
+}
+.wenyue-font.data-v-0be17cc6 {
+  font-family: 'wenyue';
+}
+.neutra-font.data-v-0be17cc6 {
+  font-family: 'neutra';
+}
+.welcome.data-v-0be17cc6 {
+  color: #432A21;
+  position: relative;
+  margin-top: -136rpx;
+}
+.avatar.data-v-0be17cc6 {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 100%;
+}
+.info.data-v-0be17cc6 {
+  padding: 20rpx 0;
+  position: relative;
+  border-bottom: 1rpx solid rgba(200, 199, 204, 0.3);
+}
+.info .title.data-v-0be17cc6 {
+  font-size: 40rpx;
+}
+.info .title .join-member.data-v-0be17cc6 {
+  padding: 10rpx 30rpx;
+  background-color: #e9e9e9;
+  border-radius: 50rem;
+}
+.info .title .join-member image.data-v-0be17cc6 {
+  width: 20rpx;
+  height: 20rpx;
+}
+.info .level.data-v-0be17cc6 {
+  padding: 2rpx 20rpx;
+  position: absolute;
+  bottom: 20rpx;
+  border: 2rpx solid #343434;
+  border-radius: 12rpx;
+}
+.grid.data-v-0be17cc6 {
+  flex: 1;
+  flex-shrink: 0;
+}
+.grid .g-icon.data-v-0be17cc6 {
+  width: 100rpx;
+  height: 100rpx;
+}
+

@@ -21,6 +21,18 @@ page {
 	color: $text-color-base;
 }
 
+.w-100 {
+	width: 100% !important;
+}
+
+.h-100 {
+	height: 100% !important;
+}
+
+.bg-white {
+	background-color: #ffffff;
+}
+
 // 布局
 .d-flex {
 	display: flex;
@@ -125,6 +137,10 @@ page {
 	margin-bottom: 30rpx !important;
 }
 
+.mb-40 {
+	margin-bottom: 40rpx !important;
+}
+
 .ml-30 {
 	margin-left: 30rpx !important;
 }
@@ -135,6 +151,10 @@ page {
 
 .ml-10 {
 	margin-left: 10rpx !important;
+}
+
+.mr-40 {
+	margin-right: 40rpx !important;
 }
 
 .mr-30 {
@@ -193,6 +213,10 @@ $font-size-extra-lg: 36rpx;
 	color: $text-color-grey;
 }
 
+.text-color-primary {
+	color: $color-primary;
+}
+
 .text-truncate {
 	overflow: hidden;
 	text-overflow: ellipsis;
@@ -201,4 +225,98 @@ $font-size-extra-lg: 36rpx;
 
 .overflow-hidden {
 	overflow: hidden;
+}
+
+.fixed-bottom {
+	position: fixed;
+	bottom: 0;
+	z-index: 9;
+}
+
+.text-sm {
+	font-size: $font-size-sm;
+}
+
+.text-base {
+	font-size: $font-size-base;
+}
+
+.text-medium {
+	font-size: $font-size-medium;
+}
+
+.text-lg {
+	font-size: $font-size-lg;
+}
+
+.text-extra-lg {
+	font-size: $font-size-extra-lg;
+}
+
+.font-thin-bold {
+	font-weight: 500;
+}
+.font-bold {
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: 'wenyue';
+	src: url('https://static.heytea.com/taro_trial/v1/font/WenYue-XinQingNianTi-NC-W8_1.otf');
+}
+
+@font-face {
+	font-family: 'neutra';
+	src: url('https://static.heytea.com/taro_trial/v1/font/NeutraTextDemiAlt.otf');
+}
+
+.font-wenyue {
+	font-family: 'wenyue';
+}
+
+.font-neutra {
+	font-family: 'neutra';
+}
+
+.font-wenyuebold {
+	font-family: 'wenyue';
+	font-weight: 700;
+}
+
+.font-neutrabold {
+	font-family: 'neutra';
+	font-weight: 700;
+}
+
+.text-center {
+	text-align: center;
+}
+
+button {
+	padding: 0;
+	margin: 0;
+	font-size: $font-size-base;
+	border-radius: $border-radius-base;
+	&::after {
+		border: none;
+	}
+	&[type='primary'] {
+		background-color: $color-primary;
+		&[disabled] {
+			background-color: rgba($color: $color-primary, $alpha: 0.6);
+		}
+		&[plain] {
+			color: $color-primary;
+			border-color: $color-primary;
+			background-color: $bg-color-white;
+		}
+	}
+
+	&[type='info'] {
+		background-color: #343434;
+		color: $bg-color-white !important;
+		&[disabled] {
+			background-color: rgba($color: #343434, $alpha: 0.6);
+		}
+	}
 }

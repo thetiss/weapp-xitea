@@ -30,7 +30,7 @@
 				</view>
 				<view class="section-body d-flex flex-wrap justify-content-between">
 					<navigator class="mart-item d-flex flex-column mb-20" v-for="(item, idx) in mart" :key="idx"
-						open-type="navigate" url="/pages/mart/detail" hover-class="none">
+						open-type="navigate" :url="'/pages/mart/detail?id='+item.id" hover-class="none">
 						<image class="product-img" :src="item.thumbnail" mode="widthFix"></image>
 						<view class="info p-20 overflow-hidden">
 							<view class="desc d-flex flex-column mb-20">

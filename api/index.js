@@ -1,7 +1,9 @@
 import mart from './mart.js'
+import martDetail from './martDetail.js'
 
 const json = {
-	mart
+	mart,
+	martDetail,
 }
 
 export default (name, Loading = true) => {

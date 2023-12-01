@@ -8,11 +8,35 @@
         "miniprogram": {
             "list": [
                 {
+                    "name": "我的",
+                    "pathName": "pages/my/my",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null,
+                    "partialCompile": {
+                        "enabled": true,
+                        "pages": []
+                    }
+                },
+                {
+                    "name": "百货详情",
+                    "pathName": "pages/mart/detail",
+                    "query": "id=308158",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
                     "name": "tabbar百货",
                     "pathName": "pages/mart/mart",
                     "query": "",
                     "launchMode": "default",
-                    "scene": null
+                    "scene": null,
+                    "partialCompile": {
+                        "enabled": false,
+                        "pages": [
+                            "pages/mart/detail"
+                        ]
+                    }
                 },
                 {
                     "name": "地图",
