@@ -63,6 +63,9 @@ page {
 .flex-fill {
   flex: 1 1 auto !important;
 }
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
 .flex-column {
   flex-direction: column !important;
 }
@@ -109,6 +112,9 @@ page {
 .ptb-20 {
   padding: 20rpx 0 !important;
 }
+.ptb-10 {
+  padding: 10rpx 0 !important;
+}
 .pl-30 {
   padding-left: 30rpx !important;
 }
@@ -123,6 +129,9 @@ page {
 }
 .mt-30 {
   margin-top: 30rpx !important;
+}
+.mt-40 {
+  margin-top: 40rpx !important;
 }
 .mb-10 {
   margin-bottom: 10rpx !important;
@@ -273,5 +282,8 @@ button[type='info'] {
 }
 button[type='info'][disabled] {
   background-color: rgba(52, 52, 52, 0.6);
+}
+.border-radius-base {
+  border-radius: 6rpx;
 }
 
