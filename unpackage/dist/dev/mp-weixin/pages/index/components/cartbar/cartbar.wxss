@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 行为相关颜色 */
+/* 背景颜色 */
+/* 文字基本颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* Border Radius */
+/* 边框颜色 */
+@font-face {
+  font-family: 'wenyue';
+  src: url("https://static.heytea.com/taro_trial/v1/font/WenYue-XinQingNianTi-NC-W8_1.otf");
+}
+@font-face {
+  font-family: 'neutra';
+  src: url("https://static.heytea.com/taro_trial/v1/font/NeutraTextDemiAlt.otf");
+}
+.wenyue-font.data-v-b6227998 {
+  font-family: 'wenyue';
+}
+.neutra-font.data-v-b6227998 {
+  font-family: 'neutra';
+}
+.bag-info .bag.data-v-b6227998 {
+  width: 100rpx;
+  height: 100rpx;
+  margin: -20rpx 20rpx 0;
+  border-radius: 100%;
+  background-color: #ffffff;
+  position: relative;
+}
+.bag-info .bag .icon.data-v-b6227998 {
+  width: 70rpx;
+  height: 70rpx;
+}
+.bag-info .bag .badge.data-v-b6227998 {
+  width: 1rem;
+  height: 1rem;
+  font-size: 24rpx;
+  color: #ffffff;
+  text-align: center;
+  background-color: #dba871;
+  border-radius: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.bag-info .price.data-v-b6227998 {
+  font-size: 36rpx;
+  color: #343434;
+  font-weight: bold;
+}
+.pay-btn.data-v-b6227998 {
+  padding: 0 70rpx;
+}
+

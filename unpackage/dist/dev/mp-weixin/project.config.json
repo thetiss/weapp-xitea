@@ -18,8 +18,8 @@
         }
     },
     "compileType": "miniprogram",
-    "libVersion": "3.2.2",
-    "appid": "wx084bea2d2ee3903b",
+    "libVersion": "3.2.4",
+    "appid": "wx097ca44f29e25d66",
     "projectname": "weapp-heytea",
     "condition": {
         "search": {

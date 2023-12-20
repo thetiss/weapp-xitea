@@ -4,7 +4,9 @@ import App from './App'
 import api from './api'
 import base from '@/config/baseUrl.js'
 import store from './store/index.js'
+import util from '@/common/util.js'
 
+Vue.prototype.$util = util;
 Vue.prototype.$store = store;
 Vue.prototype.$api = api;
 // 图片资源访问

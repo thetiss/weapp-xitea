@@ -8,6 +8,17 @@
         "miniprogram": {
             "list": [
                 {
+                    "name": "点单",
+                    "pathName": "pages/index/index",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null,
+                    "partialCompile": {
+                        "enabled": true,
+                        "pages": []
+                    }
+                },
+                {
                     "name": "我的",
                     "pathName": "pages/my/my",
                     "query": "",
